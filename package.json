@@ -1,0 +1,37 @@
+{
+  "name": "utils.js",
+  "version": "0.0.1",
+  "description": "UTILS JS",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "karma start ./karma.conf.js --auto-watch",
+    "build": "webpack --config conf/webpack.conf.js"
+  },
+  "author": "WG",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.11.3",
+    "jquery.cookie": "1.4.1",
+    "backbone": "1.2.3",
+    "underscore": "1.8.3",
+    "urijs": "1.16.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^6.3.19",
+    "chai": "^3.2.0",
+    "isparta-loader": "^2.0.0",
+    "karma": "^0.13.9",
+    "karma-coverage": "^0.5.3",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
+    "phantomjs": "^1.9.18",
+    "sinon": "git://github.com/cjohansen/Sinon.JS",
+    "webpack": "^1.11.0"
+  }
+}
